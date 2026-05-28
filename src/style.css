@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Courier-New, Arial, Sans-Serif;
+    line-height: 1.6;
+    background-color: rgb(237 212 197 / 0.62);
+    color: #222;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+.navbar ul {
+    display:flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: #7c6262;
+}
+section {
+    padding: 50px 20px;
+}
+.project-container {
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fill,minmax(250px,1fr));
+    gap:20px;
+}
+.card {
+    background-color: white;
+    padding: 17px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    max-width: 500px;
+}
+input,
+textarea,
+button{
+    padding: 12px;
+    font-size: 16px;
+}
+button {
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #7c6262;
+}
+footer {
+    text-align: center;
+
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
+
